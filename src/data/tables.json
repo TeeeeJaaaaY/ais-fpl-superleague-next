@@ -1,0 +1,577 @@
+[
+  null,
+  {
+    "hasData": false,
+    "sid": 1,
+    "teams": {
+      "pid1": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 1,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid10": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 10,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid11": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 11,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid12": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 12,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid15": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 15,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid16": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 16,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid17": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 17,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid18": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 18,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid19": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 19,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid2": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 2,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid3": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 3,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid4": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 4,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid5": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 5,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid7": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 7,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid8": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 8,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      },
+      "pid9": {
+        "draws": 0,
+        "losses": 0,
+        "pid": 9,
+        "totalPoints": 0,
+        "totalScore": 0,
+        "wins": 0
+      }
+    }
+  },
+  {
+    "hasData": true,
+    "sid": 2,
+    "teams": {
+      "pid1": {
+        "draws": 0,
+        "losses": 12,
+        "pid": 1,
+        "totalPoints": 75,
+        "totalScore": 1547,
+        "wins": 25
+      },
+      "pid10": {
+        "draws": 0,
+        "losses": 21,
+        "pid": 10,
+        "totalPoints": 48,
+        "totalScore": 1295,
+        "wins": 16
+      },
+      "pid11": {
+        "draws": 1,
+        "losses": 24,
+        "pid": 11,
+        "totalPoints": 37,
+        "totalScore": 1197,
+        "wins": 12
+      },
+      "pid12": {
+        "draws": 0,
+        "losses": 29,
+        "pid": 12,
+        "totalPoints": 24,
+        "totalScore": 1084,
+        "wins": 8
+      },
+      "pid16": {
+        "draws": 3,
+        "losses": 17,
+        "pid": 16,
+        "totalPoints": 54,
+        "totalScore": 1357,
+        "wins": 17
+      },
+      "pid19": {
+        "draws": 1,
+        "losses": 21,
+        "pid": 19,
+        "totalPoints": 46,
+        "totalScore": 1093,
+        "wins": 15
+      },
+      "pid2": {
+        "draws": 0,
+        "losses": 14,
+        "pid": 2,
+        "totalPoints": 69,
+        "totalScore": 1494,
+        "wins": 23
+      },
+      "pid3": {
+        "draws": 0,
+        "losses": 10,
+        "pid": 3,
+        "totalPoints": 81,
+        "totalScore": 1546,
+        "wins": 27
+      },
+      "pid4": {
+        "draws": 1,
+        "losses": 23,
+        "pid": 4,
+        "totalPoints": 40,
+        "totalScore": 1217,
+        "wins": 13
+      },
+      "pid5": {
+        "draws": 3,
+        "losses": 11,
+        "pid": 5,
+        "totalPoints": 72,
+        "totalScore": 1440,
+        "wins": 23
+      },
+      "pid6": {
+        "draws": 0,
+        "losses": 20,
+        "pid": 6,
+        "totalPoints": 51,
+        "totalScore": 1260,
+        "wins": 17
+      },
+      "pid7": {
+        "draws": 1,
+        "losses": 15,
+        "pid": 7,
+        "totalPoints": 64,
+        "totalScore": 1407,
+        "wins": 21
+      },
+      "pid8": {
+        "draws": 2,
+        "losses": 17,
+        "pid": 8,
+        "totalPoints": 56,
+        "totalScore": 1369,
+        "wins": 18
+      },
+      "pid9": {
+        "draws": 2,
+        "losses": 18,
+        "pid": 9,
+        "totalPoints": 53,
+        "totalScore": 1237,
+        "wins": 17
+      }
+    }
+  },
+  {
+    "hasData": true,
+    "sid": 3,
+    "teams": {
+      "pid1": {
+        "draws": 1,
+        "losses": 16,
+        "pid": 1,
+        "totalPoints": 64,
+        "totalScore": 1699,
+        "wins": 21
+      },
+      "pid10": {
+        "draws": 3,
+        "losses": 21,
+        "pid": 10,
+        "totalPoints": 45,
+        "totalScore": 1320,
+        "wins": 14
+      },
+      "pid11": {
+        "draws": 0,
+        "losses": 21,
+        "pid": 11,
+        "totalPoints": 51,
+        "totalScore": 1701,
+        "wins": 17
+      },
+      "pid12": {
+        "draws": 2,
+        "losses": 17,
+        "pid": 12,
+        "totalPoints": 59,
+        "totalScore": 1334,
+        "wins": 19
+      },
+      "pid2": {
+        "draws": 0,
+        "losses": 17,
+        "pid": 2,
+        "totalPoints": 63,
+        "totalScore": 1745,
+        "wins": 21
+      },
+      "pid3": {
+        "draws": 0,
+        "losses": 17,
+        "pid": 3,
+        "totalPoints": 63,
+        "totalScore": 1575,
+        "wins": 21
+      },
+      "pid4": {
+        "draws": 2,
+        "losses": 10,
+        "pid": 4,
+        "totalPoints": 80,
+        "totalScore": 1736,
+        "wins": 26
+      },
+      "pid5": {
+        "draws": 0,
+        "losses": 22,
+        "pid": 5,
+        "totalPoints": 48,
+        "totalScore": 1368,
+        "wins": 16
+      },
+      "pid6": {
+        "draws": 0,
+        "losses": 21,
+        "pid": 6,
+        "totalPoints": 51,
+        "totalScore": 1483,
+        "wins": 17
+      },
+      "pid7": {
+        "draws": 0,
+        "losses": 23,
+        "pid": 7,
+        "totalPoints": 45,
+        "totalScore": 1432,
+        "wins": 15
+      },
+      "pid8": {
+        "draws": 2,
+        "losses": 18,
+        "pid": 8,
+        "totalPoints": 56,
+        "totalScore": 1428,
+        "wins": 18
+      },
+      "pid9": {
+        "draws": 0,
+        "losses": 20,
+        "pid": 9,
+        "totalPoints": 54,
+        "totalScore": 1515,
+        "wins": 18
+      }
+    }
+  },
+  {
+    "hasData": true,
+    "sid": 4,
+    "teams": {
+      "pid1": {
+        "draws": 1,
+        "losses": 20,
+        "pid": 1,
+        "totalPoints": 52,
+        "totalScore": 1474,
+        "wins": 17
+      },
+      "pid10": {
+        "draws": 2,
+        "losses": 22,
+        "pid": 10,
+        "totalPoints": 44,
+        "totalScore": 1431,
+        "wins": 14
+      },
+      "pid11": {
+        "draws": 0,
+        "losses": 20,
+        "pid": 11,
+        "totalPoints": 54,
+        "totalScore": 1452,
+        "wins": 18
+      },
+      "pid12": {
+        "draws": 1,
+        "losses": 17,
+        "pid": 12,
+        "totalPoints": 61,
+        "totalScore": 1514,
+        "wins": 20
+      },
+      "pid2": {
+        "draws": 0,
+        "losses": 24,
+        "pid": 2,
+        "totalPoints": 42,
+        "totalScore": 1531,
+        "wins": 14
+      },
+      "pid3": {
+        "draws": 2,
+        "losses": 14,
+        "pid": 3,
+        "totalPoints": 68,
+        "totalScore": 1569,
+        "wins": 22
+      },
+      "pid4": {
+        "draws": 2,
+        "losses": 13,
+        "pid": 4,
+        "totalPoints": 71,
+        "totalScore": 1669,
+        "wins": 23
+      },
+      "pid5": {
+        "draws": 0,
+        "losses": 17,
+        "pid": 5,
+        "totalPoints": 63,
+        "totalScore": 1564,
+        "wins": 21
+      },
+      "pid6": {
+        "draws": 2,
+        "losses": 15,
+        "pid": 6,
+        "totalPoints": 65,
+        "totalScore": 1700,
+        "wins": 21
+      },
+      "pid7": {
+        "draws": 3,
+        "losses": 19,
+        "pid": 7,
+        "totalPoints": 51,
+        "totalScore": 1503,
+        "wins": 16
+      },
+      "pid8": {
+        "draws": 1,
+        "losses": 16,
+        "pid": 8,
+        "totalPoints": 64,
+        "totalScore": 1614,
+        "wins": 21
+      },
+      "pid9": {
+        "draws": 0,
+        "losses": 24,
+        "pid": 9,
+        "totalPoints": 42,
+        "totalScore": 1452,
+        "wins": 14
+      }
+    }
+  },
+  {
+    "hasData": true,
+    "sid": 5,
+    "teams": {
+      "pid1": {
+        "draws": 1,
+        "losses": 16,
+        "pid": 1,
+        "totalPoints": 64,
+        "totalScore": 1385,
+        "wins": 21
+      },
+      "pid10": {
+        "draws": 1,
+        "losses": 18,
+        "pid": 10,
+        "totalPoints": 58,
+        "totalScore": 1452,
+        "wins": 19
+      },
+      "pid11": {
+        "draws": 2,
+        "losses": 29,
+        "pid": 11,
+        "totalPoints": 23,
+        "totalScore": 1085,
+        "wins": 7
+      },
+      "pid12": {
+        "draws": 1,
+        "losses": 19,
+        "pid": 12,
+        "totalPoints": 55,
+        "totalScore": 1363,
+        "wins": 18
+      },
+      "pid13": {
+        "draws": 2,
+        "losses": 15,
+        "pid": 13,
+        "totalPoints": 65,
+        "totalScore": 1677,
+        "wins": 21
+      },
+      "pid14": {
+        "draws": 1,
+        "losses": 18,
+        "pid": 14,
+        "totalPoints": 58,
+        "totalScore": 1312,
+        "wins": 19
+      },
+      "pid2": {
+        "draws": 2,
+        "losses": 19,
+        "pid": 2,
+        "totalPoints": 53,
+        "totalScore": 1410,
+        "wins": 17
+      },
+      "pid3": {
+        "draws": 3,
+        "losses": 18,
+        "pid": 3,
+        "totalPoints": 54,
+        "totalScore": 1373,
+        "wins": 17
+      },
+      "pid4": {
+        "draws": 2,
+        "losses": 19,
+        "pid": 4,
+        "totalPoints": 53,
+        "totalScore": 1427,
+        "wins": 17
+      },
+      "pid5": {
+        "draws": 3,
+        "losses": 12,
+        "pid": 5,
+        "totalPoints": 72,
+        "totalScore": 1660,
+        "wins": 23
+      },
+      "pid6": {
+        "draws": 1,
+        "losses": 16,
+        "pid": 6,
+        "totalPoints": 64,
+        "totalScore": 1434,
+        "wins": 21
+      },
+      "pid7": {
+        "draws": 2,
+        "losses": 14,
+        "pid": 7,
+        "totalPoints": 68,
+        "totalScore": 1500,
+        "wins": 22
+      },
+      "pid8": {
+        "draws": 2,
+        "losses": 19,
+        "pid": 8,
+        "totalPoints": 53,
+        "totalScore": 1257,
+        "wins": 17
+      },
+      "pid9": {
+        "draws": 3,
+        "losses": 21,
+        "pid": 9,
+        "totalPoints": 45,
+        "totalScore": 1313,
+        "wins": 14
+      }
+    }
+  }
+]
