@@ -27,7 +27,7 @@ export default async function Home() {
 
 
     return (
-      <main className="flex min-h-screen flex-col items-center justify-between md:p-24">
+      <main className="flex min-h-screen flex-col items-center justify-between pt-16 md:p-24">
         <Tabs eastData={east.data} westData={west.data} />
       </main>
     )
