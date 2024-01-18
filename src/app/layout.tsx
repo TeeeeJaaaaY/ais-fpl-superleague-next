@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import styles from './layout.module.css';
+import FplDataContextProvider from './contexts/fplApi-context';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +29,9 @@ export default function RootLayout({
           <div className={styles.bubble} />
           <div className={styles.bubble} />
         </div>
-        {children}
+        <FplDataContextProvider>
+          {children}
+        </FplDataContextProvider>
       </body>
     </html>
   )
