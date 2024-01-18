@@ -23,9 +23,21 @@ export type Standing = {
   total: number;
 }
 
+export type Match = {
+  event: number;
+  finished: boolean;
+  league_entry_1: number;
+  league_entry_1_points: number;
+  league_entry_2: number;
+  league_entry_2_points: number;
+  started: true;
+  winning_league_entry: number | null;
+  winning_method: string | null;
+}
+
 export interface FplLeagueData {
   league: object
   league_entries: Entry[]
-  matches: []
+  matches: Match[]
   standings: Standing[]
 }
