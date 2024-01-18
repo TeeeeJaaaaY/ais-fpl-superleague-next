@@ -35,8 +35,29 @@ export type Match = {
   winning_method: string | null;
 }
 
+export type League = {
+  admin_entry: number;
+  closed: boolean;
+  draft_dt: string;
+  draft_pick_time_limit: number;
+  draft_status: string;
+  draft_tz_show: string;
+  id: number;
+  ko_rounds: number
+  make_code_public: boolean;
+  max_entries: number;
+  min_entries: number;
+  name: string;
+  scoring: string;
+  start_event: number;
+  stop_event: number;
+  trades: string;
+  transaction_mode: string;
+  variety: string;
+}
+
 export interface FplLeagueData {
-  league: object
+  league: League
   league_entries: Entry[]
   matches: Match[]
   standings: Standing[]
