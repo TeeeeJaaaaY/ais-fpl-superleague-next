@@ -1,0 +1,28 @@
+.root {
+  width: 100%;
+  background: rgba(53, 53, 53, 0.35);
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+}
+
+.root table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  margin-bottom: 1rem;;
+}
+
+.tableHead th {
+  padding: 1rem 0 0.75rem;
+}
+
+.root th,
+.root td {
+  text-align: left;
+  border-bottom: 1px solid;
+}
+
+.tableBody td {
+  padding: 1rem 0;
+}
