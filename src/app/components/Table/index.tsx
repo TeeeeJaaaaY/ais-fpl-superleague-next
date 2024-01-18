@@ -21,7 +21,7 @@ export default function Table({standings, entries}: {
 
   return (
     <div className={styles.root}>
-      <table className='w-full text-left table-auto min-w-max'>
+      <table className='w-full text-left table-auto min-w-max text-xs md:text-base'>
         <thead className={styles.tableHead}>
           <tr>
             <th>Pos.</th>
@@ -29,8 +29,8 @@ export default function Table({standings, entries}: {
             <th>W</th>
             <th>L</th>
             <th>D</th>
-            <th>Score</th>
-            <th>Points</th>
+            <th>+</th>
+            <th>Pts</th>
           </tr>
         </thead>
         <tbody className={styles.tableBody}>

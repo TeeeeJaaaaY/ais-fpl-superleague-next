@@ -39,7 +39,7 @@ export default function Tabs({ eastData, westData } : {
         </li>
       </ul>
 
-      <section className="w-100 p-16 text-center mx-auto">
+      <section className="w-100 md:p-16 text-center mx-auto">
         {activeTab === 'East' && (
           <div className="">
             <Table standings={eastData.standings} entries={eastData.league_entries} />
