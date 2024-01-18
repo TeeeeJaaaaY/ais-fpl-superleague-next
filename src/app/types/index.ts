@@ -21,6 +21,8 @@ export type Standing = {
   rank: number;
   rank_sort: number;
   total: number;
+  teamName?: string;
+  playerName?: string;
 }
 
 export type Match = {
@@ -54,6 +56,18 @@ export type League = {
   trades: string;
   transaction_mode: string;
   variety: string;
+}
+
+export type LiveLeague = {
+  leagueName: string;
+  leagueId: number;
+  standings: Standing[]
+}
+
+export interface AppData {
+  liveLeagues: LiveLeague[];
+  historical: [];
+  players: [];
 }
 
 export interface FplLeagueData {
