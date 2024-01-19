@@ -66,8 +66,8 @@ export type LiveLeague = {
 
 export interface AppData {
   liveLeagues: LiveLeague[];
-  historical: [];
-  players: [];
+  historical?: [];
+  players?: [];
 }
 
 export interface FplLeagueData {

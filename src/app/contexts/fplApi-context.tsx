@@ -10,18 +10,14 @@ type FplDataContextProviderProps = {
 }
 
 type FplDataContext = {
-  fplData: AppData;
-  setFplData: React.Dispatch<React.SetStateAction<AppData>>;
+  fplData: AppData | null;
+  setFplData: React.Dispatch<React.SetStateAction<AppData | null>>;
 }
 
 const FplDataContext = createContext<FplDataContext | null>(null);
 
 export default function FplDataContextProvider({ children }: FplDataContextProviderProps) {
-  const [fplData, setFplData] = useState<AppData>({
-    liveLeagues: [],
-    historical: [],
-    players: [],
-  });
+  const [fplData, setFplData] = useState<AppData | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {

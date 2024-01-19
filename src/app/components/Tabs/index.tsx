@@ -9,9 +9,7 @@ import Table from '../Table';
 export default function Tabs({ leagues } : {
   leagues: LiveLeague[],
 }) {
-  const [activeTab, setActiveTab] = useState(1);
-
-  console.log(leagues);
+  const [activeTab, setActiveTab] = useState(leagues[0].leagueId);
 
   const tabStyles = 'cursor-pointer py-2 px-4 text-gray-500 border-b-8';
   const activeStyles = tabStyles + ' text-green-500 border-green-500';
