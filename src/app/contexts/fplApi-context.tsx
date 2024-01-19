@@ -20,20 +20,20 @@ export default function FplDataContextProvider({ children }: FplDataContextProvi
   const [fplData, setFplData] = useState<AppData | null>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    //IIFE added to try to figure out the loading state on mobile safari
+    (async () => {
       try {
         const [eastLeague, westLeague] = await Promise.all([
           getFplData(process.env.NEXT_PUBLIC_EAST_ID as string),
           getFplData(process.env.NEXT_PUBLIC_WEST_ID as string),
         ]);
-
+  
         const eastStandings = constructLiveLeague(eastLeague.data);
         const westStandings = constructLiveLeague(westLeague.data);
-
         const mergedStandings = mergeLeagues(eastStandings.standings, westStandings.standings);
-
+  
         const fetchedLiveLeagues = [eastStandings, westStandings, mergedStandings];
-
+  
         setFplData((prevData) => ({
           ...prevData,
           liveLeagues: fetchedLiveLeagues,
@@ -42,9 +42,7 @@ export default function FplDataContextProvider({ children }: FplDataContextProvi
         console.error('Error fetching data from FPL api: ', error);
         throw new Error('Error fetching data from FPL api');
       }
-    }
-    
-    fetchData();
+    })();
   }, []);
 
   return (
