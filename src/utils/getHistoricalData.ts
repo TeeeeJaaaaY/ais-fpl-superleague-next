@@ -2,7 +2,7 @@ import players from '../data/players.json';
 import seasons from '../data/seasons.json';
 import tables from '../data/tables.json';
 
-import { HistoricalPlayer, LiveLeague, Standing } from '../app/types';
+import { HistoricalPlayer, HistoricalTable, LiveLeague, Standing } from '../app/types';
 
 /**
  * Get the player from historical data using either historical playerID or the FPL Entry ID.
@@ -84,7 +84,7 @@ export function getTables(): LiveLeague[] {
  * and adding the combined league data to the LiveLeagues Data type
  * Rather than a separate reducer here.
  */
-export default function combineAllHistoricalData(table, totals) {
+export default function combineAllHistoricalData(table: HistoricalTable, totals: Standing[]) {
   table.teams.forEach((team) => {
     const entryExists = totals.find((entry) => team.pid == entry.league_entry);
 
