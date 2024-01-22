@@ -30,7 +30,7 @@ export default function Historical() {
       {!tableData && <p>Loading...</p>}
 
       {tableData && (
-        <div className="relative w-[30rem] text-black pb-4">
+        <div className="relative w-11/12 text-black pb-4">
           <button
             className={`${open ? 'ring-blue-600' : 'ring-gray-300'} flex w-full items-center justify-between rounded bg-white p-2 ring-1`}
             onClick={handleSelect}
