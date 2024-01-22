@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 
 import styles from './layout.module.css';
 import FplDataContextProvider from './contexts/fplApi-context';
+import Nav from './components/Nav';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + ' min-h-screen'}>
         <div className={styles.background}>
           <div className={styles.bubble} />
           <div className={styles.bubble} />
@@ -32,6 +33,7 @@ export default function RootLayout({
         <FplDataContextProvider>
           {children}
         </FplDataContextProvider>
+        <Nav />
       </body>
     </html>
   )

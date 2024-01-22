@@ -1,10 +1,10 @@
 'use client';
-import Tabs from './components/Tabs';
-import { useAppData } from './contexts/fplApi-context';
+import Tabs from '../components/Tabs';
+import { useAppData } from '../contexts/fplApi-context';
 
-import './globals.css';
+import '../globals.css';
 
-export default function Home() {
+export default function Live() {
   const { fplData } = useAppData();
 
   return (

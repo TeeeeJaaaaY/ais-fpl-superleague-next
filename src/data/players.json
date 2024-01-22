@@ -1,255 +1,139 @@
-{
-  "player_1": {
-    "Active": true,
-    "Name": "Tom James",
-    "Nicknames": [
-      "Teej",
-      "Dunk",
-      "Database"
-    ],
-    "Quote": "",
-    "TeamName": "DunkDynasty",
+[
+  {
+    "active": true,
+    "name": "Tom James",
+    "teamName": "DunkDynasty",
     "fpl_entry_id": 231510,
     "pid": 1
   },
-  "player_10": {
-    "Active": true,
-    "Name": "Sean Attwood",
-    "Nicknames": [
-      "Attwood",
-      "NapWood",
-      "Westwood"
-    ],
-    "Quote": "",
-    "TeamName": "Big Toe Remote FC",
+  {
+    "active": true,
+    "name": "Sean Attwood",
+    "teamName": "Big Toe Remote FC",
     "fpl_entry_id": 447301,
     "pid": 10
   },
-  "player_11": {
-    "Active": true,
-    "Name": "Ashley Trunley",
-    "Nicknames": [
-      "Trun",
-      "Ash",
-      "Trum",
-      "TrunsHunters Assistant",
-      "CurruptTraderThree"
-    ],
-    "Quote": "",
-    "TeamName": "Fodder FC",
+  {
+    "active": true,
+    "name": "Ashley Trunley",
+    "teamName": "Fodder FC",
     "fpl_entry_id": 349715,
     "pid": 11
   },
-  "player_12": {
-    "Active": true,
-    "Name": "Jamie Hambleton",
-    "Nicknames": [
-      "Hambo",
-      "Ham",
-      "The apprentice pretender"
-    ],
-    "Quote": "",
-    "TeamName": "AFC Hamburglars",
+  {
+    "active": true,
+    "name": "Jamie Hambleton",
+    "teamName": "AFC Hamburglars",
     "fpl_entry_id": 230380,
     "pid": 12
   },
-  "player_13": {
-    "Active": true,
-    "Name": "Harry Stevens",
-    "Nicknames": [
-      "H",
-      "Handed 3rd place"
-    ],
-    "Quote": "",
-    "TeamName": "Sausage Sane",
+  {
+    "active": true,
+    "name": "Harry Stevens",
+    "teamName": "Sausage Sane",
     "fpl_entry_id": 311988,
     "pid": 13
   },
-  "player_14": {
-    "Active": true,
-    "Name": "James Patterson",
-    "Nicknames": [
-      "Patt",
-      "Roy",
-      "Jimmy",
-      "Fodder"
-    ],
-    "Quote": "",
-    "TeamName": "Raheemian Rhapsody",
+  {
+    "active": true,
+    "name": "James Patterson",
+    "teamName": "Raheemian Rhapsody",
     "fpl_entry_id": 297313,
     "pid": 14
   },
-  "player_15": {
-    "Active": false,
-    "Name": "James Slate",
-    "Nicknames": [
-      "Slate",
-      "Chairman of the board",
-      "£100 for Lukaku"
-    ],
-    "Quote": "",
-    "TeamName": "SlateFC",
-    "pid": 15
-  },
-  "player_16": {
-    "Active": true,
-    "Name": "Robbie Humpfries",
-    "Nicknames": [
-      "Growls",
-      "Growler",
-      "ACL Specialist"
-    ],
-    "Quote": "",
-    "TeamName": "GrowlerFC",
+  {
+    "active": true,
+    "name": "Robbie Humpfries",
+    "teamName": "GrowlerFC",
     "fpl_entry_id": 312686,
     "pid": 16
   },
-  "player_17": {
-    "Active": false,
-    "Name": "Wez Simarco Bot 1",
-    "Nicknames": [
-      "Mason"
-    ],
-    "Quote": "",
-    "TeamName": "WezBot1",
-    "pid": 17
-  },
-  "player_18": {
-    "Active": false,
-    "Name": "Wez Simarco Bot 2",
-    "Nicknames": [
-      "Name Unknown"
-    ],
-    "Quote": "",
-    "TeamName": "WezBot2",
-    "pid": 18
-  },
-  "player_19": {
-    "Active": false,
-    "Name": "Declan",
-    "Nicknames": [
-      "Dec",
-      "Silver"
-    ],
-    "Quote": "",
-    "TeamName": "DecFC",
-    "pid": 19
-  },
-  "player_2": {
-    "Active": true,
-    "Name": "Scott Thomas",
-    "Nicknames": [
-      "Gens",
-      "Levy",
-      "Captain Curse"
-    ],
+  {
+    "active": true,
+    "name": "Scott Thomas",
     "Quote": "Record breakers",
-    "TeamName": "Galacticos",
+    "teamName": "Galacticos",
     "fpl_entry_id": 230291,
     "pid": 2
   },
-  "player_20": {
-    "Name": "Thomas Goldsmith",
-    "Nicknames": [
-      "Tommy"
-    ],
-    "Quote": "",
-    "TeamName": "Welcome MG11",
+  {
+    "name": "Thomas Goldsmith",
+    "teamName": "Welcome MG11",
     "active": true,
     "fpl_entry_id": 231384,
     "pid": 20
   },
-  "player_3": {
-    "Active": true,
-    "Name": "Steven Wherrett",
-    "Nicknames": [
-      "Wez",
-      "Pav",
-      "Bot Farmer",
-      "CurruptTraderTwo"
-    ],
-    "Quote": "",
-    "TeamName": "Silver End Snakes",
+  {
+    "active": true,
+    "name": "Steven Wherrett",
+    "teamName": "Silver End Snakes",
     "fpl_entry_id": 477367,
     "pid": 3
   },
-  "player_4": {
-    "Active": true,
-    "Name": "Chris Woods",
-    "Nicknames": [
-      "Woods",
-      "Woodnut",
-      "Fourleaf"
-    ],
-    "Quote": "",
-    "TeamName": "Patheletico Madrid",
+  {
+    "active": true,
+    "name": "Chris Woods",
+    "teamName": "Patheletico Madrid",
     "fpl_entry_id": 231297,
     "pid": 4
   },
-  "player_5": {
-    "Active": true,
-    "Name": "Ross Pearle",
-    "Nicknames": [
-      "Pearlo",
-      "Ross-a-Tron",
-      "CurruptTraderOne"
-    ],
-    "Quote": "",
-    "TeamName": "Little Bay Lions",
+  {
+    "active": true,
+    "name": "Ross Pearle",
+    "teamName": "Little Bay Lions",
     "fpl_entry_id": 315311,
     "pid": 5
   },
-  "player_6": {
-    "Active": true,
-    "Name": "Ifran Ahmed",
-    "Nicknames": [
-      "Iffy",
-      "Iff",
-      "MrEverywhere"
-    ],
-    "Quote": "",
-    "TeamName": "Spreadsheet X1",
+  {
+    "active": true,
+    "name": "Ifran Ahmed",
+    "teamName": "Spreadsheet X1",
     "fpl_entry_id": 477919,
     "pid": 6
   },
-  "player_7": {
-    "Active": true,
-    "Name": "Adam Thompson",
-    "Nicknames": [
-      "Tommo",
-      "Tav",
-      "HardDoneBy"
-    ],
-    "Quote": "",
-    "TeamName": "Tavs Army",
+  {
+    "active": true,
+    "name": "Adam Thompson",
+    "teamName": "Tavs Army",
     "fpl_entry_id": 230419,
     "pid": 7
   },
-  "player_8": {
-    "Active": true,
-    "Name": "Daniel Hunter",
-    "Nicknames": [
-      "Hunts",
-      "Hattrick",
-      "The great pretender",
-      "TrunsHunters"
-    ],
-    "Quote": "",
-    "TeamName": "Hat-trickHunters",
+  {
+    "active": true,
+    "name": "Daniel Hunter",
+    "teamName": "Hat-trickHunters",
     "fpl_entry_id": 403205,
     "pid": 8
   },
-  "player_9": {
-    "Active": true,
-    "Name": "Luke Rush",
-    "Nicknames": [
-      "Rushy",
-      "Beast",
-      "Will he last the season"
-    ],
-    "Quote": "",
-    "TeamName": "Praia Da Luz FC",
+  {
+    "active": true,
+    "name": "Luke Rush",
+    "teamName": "Praia Da Luz FC",
     "fpl_entry_id": 343132,
     "pid": 9
+  },
+  {
+    "active": false,
+    "name": "Wez Simarco Bot 1",
+    "teamName": "WezBot1",
+    "pid": 17
+  },
+  {
+    "active": false,
+    "name": "James Slate",
+    "teamName": "SlateFC",
+    "pid": 15
+  },
+  {
+    "active": false,
+    "name": "Wez Simarco Bot 2",
+    "teamName": "WezBot2",
+    "pid": 18
+  },
+  {
+    "active": false,
+    "name": "Declan",
+    "teamName": "DecFC",
+    "pid": 19
   }
-}
+]
