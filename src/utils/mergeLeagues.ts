@@ -12,7 +12,7 @@ export default function mergeLeagues(firstLeague: Standing[], secondLeague: Stan
   }));
 
   return {
-    leagueName: 'West & East: Combined',
+    leagueName: 'East & West Combined',
     leagueId: 1,
     standings: updatedMergedLeague
   }

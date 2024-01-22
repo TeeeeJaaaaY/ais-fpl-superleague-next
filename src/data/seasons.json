@@ -1,7 +1,7 @@
 [
-  null,
   {
-    "Players": [
+    "id": 1,
+    "players": [
       1,
       2,
       3,
@@ -13,17 +13,18 @@
       10,
       12,
       15,
-      "11",
+      11,
       17,
       18,
       19
     ],
-    "Second": 7,
-    "Winner": 3,
-    "Year": 2019
+    "second": 7,
+    "winner": 3,
+    "year": 2019
   },
   {
-    "Players": [
+    "id": 2,
+    "players": [
       1,
       2,
       3,
@@ -39,13 +40,14 @@
       16,
       18
     ],
-    "Second": 1,
-    "Third": 5,
-    "Winner": 3,
-    "Year": 2020
+    "second": 1,
+    "third": 5,
+    "winner": 3,
+    "year": 2020
   },
   {
-    "Players": [
+    "id": 3,
+    "players": [
       1,
       2,
       3,
@@ -57,13 +59,14 @@
       10,
       12
     ],
-    "Second": 1,
-    "Third": 2,
-    "Winner": 4,
-    "Year": 2021
+    "second": 1,
+    "third": 2,
+    "winner": 4,
+    "year": 2021
   },
   {
-    "Players": [
+    "id": 4,
+    "players": [
       1,
       2,
       3,
@@ -75,13 +78,14 @@
       10,
       12
     ],
-    "Second": 3,
-    "Third": 6,
-    "Winner": 4,
-    "Year": 2022
+    "second": 3,
+    "third": 6,
+    "winner": 4,
+    "year": 2022
   },
   {
-    "Players": [
+    "id": 5,
+    "players": [
       1,
       2,
       3,
@@ -95,9 +99,9 @@
       13,
       14
     ],
-    "Second": 7,
-    "Third": 13,
-    "Winner": 5,
-    "Year": 2023
+    "second": 7,
+    "third": 13,
+    "winner": 5,
+    "year": 2023
   }
 ]

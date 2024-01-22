@@ -9,6 +9,14 @@ export type Entry = {
   waiver_pick: number;
 }
 
+export type HistoricalPlayer = {
+  pid: number;
+  active: boolean;
+  name: string | undefined;
+  teamName: string | undefined;
+  fpl_entry_id?: number;
+}
+
 export type Standing = {
   last_rank: number;
   league_entry: number;

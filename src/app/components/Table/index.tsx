@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Standing } from '../../types';
 
@@ -11,6 +11,10 @@ export default function Table({standings}: {
 ){
   const [sortedStandings, setSortedStandings] = useState<Standing[]>(standings);
   const [order, setOrder] = useState<'points' | 'score'>('points');
+
+  useEffect(() => {
+    setSortedStandings([...standings]);
+  }, [standings])
 
   const handleSort = (type: 'points' | 'score') => {
     let sortedData = [...standings];
@@ -31,7 +35,7 @@ export default function Table({standings}: {
   }
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root + ' mb-24'}>
       <table className='w-full text-left table-auto min-w-max text-xs md:text-base'>
         <thead className={styles.tableHead}>
           <tr>
@@ -42,13 +46,13 @@ export default function Table({standings}: {
             <th>D</th>
             <th
               onClick={() => handleSort('score')}
-              className={order === 'score' ? 'text-green-500 border-white-500' : ''}
+              className={order === 'score' ? 'text-green-500 border-white-500' : 'cursor-pointer hover:text-green-500'}
             >
               +
             </th>
             <th
               onClick={() => handleSort('points')}
-              className={order === 'points' ? 'text-green-500 border-white-500' : ''}
+              className={order === 'points' ? 'text-green-500 border-white-500' : 'cursor-pointer hover:text-green-500'}
             >
               Pts
             </th>
