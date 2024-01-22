@@ -9,6 +9,15 @@ export type Entry = {
   waiver_pick: number;
 }
 
+export type HistoricalStanding = {
+  "draws": number;
+  "losses": number;
+  "pid": number;
+  "totalPoints": number;
+  "totalScore": number;
+  "wins": number;
+}
+
 export type HistoricalPlayer = {
   pid: number;
   active: boolean;
@@ -16,6 +25,14 @@ export type HistoricalPlayer = {
   teamName: string | undefined;
   fpl_entry_id?: number;
 }
+
+export type HistoricalTable = {
+  "hasData": boolean;
+  "sid": number;
+  "teams": HistoricalStanding[];
+}
+
+
 
 export type Standing = {
   last_rank: number;
